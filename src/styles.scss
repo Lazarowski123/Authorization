@@ -1,0 +1,15 @@
+@use "sass/colors" as c;
+@use "sass/components";
+@use "sass/reset";
+
+body {
+  background-color: c.$main-background-color;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.loading{
+  color: white;
+  font-size: 18px;
+}

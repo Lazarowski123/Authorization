@@ -1,0 +1,11 @@
+<nav class="nav">
+  <div class="wrapper">
+    <div class="nav__box"> 
+      <a class="nav__item" routerLinkActive="active" routerLink="customer-details">Klient</a>
+      <button class="nav_logout" (click)="logout()">wyloguj</button>
+    </div>
+  </div>
+</nav>
+<div class="customer-details">
+  <router-outlet></router-outlet>
+</div>

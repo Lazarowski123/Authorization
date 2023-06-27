@@ -1,0 +1,10 @@
+@use "reset";
+@use "components";
+@use "nav";
+@use "colors" as c;
+@import "./mixins";
+
+body {
+	background-color: c.$main-background-color;
+}
+
